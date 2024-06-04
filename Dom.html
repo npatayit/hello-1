@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+</head>
+<body>
+
+    <!-- <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+    </div>
+    <script>
+    const  parent = document.querySelector(`.parent`)
+    console.log(parent);
+    console.log(parent.children[2].innerHTML)
+        
+    parent.children[1].innerHTML = "sunday"
+
+    </script> -->
+<!-- <script>
+    const div = document.createComment(`div`)
+    console.log(div)
+    div.innertext = "nazneen topu"
+    div.style.color = "green"
+    div.setAttribute("title","generated title")
+    document.body.appendChild(div)
+        
+
+</script> -->
+
+<img src="Screenshot_20200328-090953_WhatsApp.jpg" id="naz" style="height: 600px;">
+
+<script>
+    // document.getElementById(`naz`).onclick = function()
+    // {
+    //     alert("nazo clicked")
+    // }
+    document.getElementById(`naz`).addEventListener(`click`, (e)=>{
+        console.log(e);
+    },false)
+</script>
+   
+</body>
+</html>
+
